@@ -10,7 +10,7 @@ The **GenericHTTP** library simplifies sending HTTP requests using the ESP8266-0
 
 ## Installation
 
-1. Download the [latest release](https://github.com/eshansajes/GenericHTTP-ESP8266-01/releases) of the library.
+1. Download the [latest release](https://github.com/eshansajes/GenericHTTP-ESP8266-01/) of the library.
 2. In the Arduino IDE, go to **Sketch > Include Library > Add .ZIP Library...** and select the downloaded ZIP file.
 3. Restart the Arduino IDE.
 
