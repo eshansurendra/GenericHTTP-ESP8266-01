@@ -47,8 +47,8 @@ if (success) {
 
 The library comes with several example sketches to help you get started:
 
-- [Basic Usage](examples/BasicUsage/): Demonstrates the basic usage of the library to connect to Wi-Fi and send an HTTP GET request.
-- [Advanced Usage](examples/AdvancedUsage/): Shows more advanced scenarios, such as handling responses and using custom headers.
+- [Basic Usage](examples/BasicUsage.ino/): Demonstrates the basic usage of the library to connect to Wi-Fi and send an HTTP GET request.
+- [Advanced Usage](examples/AdvancedUsage.ino/): Shows more advanced scenarios, such as handling responses and using custom headers.
 
 Feel free to explore these examples to understand how to integrate the GenericHTTP library into your own projects.
 
