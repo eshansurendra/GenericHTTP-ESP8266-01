@@ -11,7 +11,7 @@ The **GenericHTTP** library simplifies sending HTTP requests using the ESP8266 m
 
 ## Installation
 
-1. Download the [latest release](https://github.com/yourusername/GenericHTTP/releases) of the library.
+1. Download the [latest release](https://github.com/eshansajes/GenericHTTP-ESP8266-01/releases) of the library.
 2. In the Arduino IDE, go to **Sketch > Include Library > Add .ZIP Library...** and select the downloaded ZIP file.
 3. Restart the Arduino IDE.
 
@@ -21,4 +21,25 @@ The **GenericHTTP** library simplifies sending HTTP requests using the ESP8266 m
 
 ```cpp
 #include <GenericHTTP.h>
+
+2. Create an instance of the GenericHTTP class:
+```cpp
+GenericHTTP http;
+
+3. Connect to Wi-Fi using connectToWiFi function:
+```cpp
+http.connectToWiFi("your_wifi_ssid", "your_wifi_password");
+
+4. Send an HTTP GET request:
+```cpp
+bool success = http.sendHTTPRequest("GET", "example.com", "80", "/path/to/endpoint", nullptr, nullptr);
+if (success) {
+  // Handle successful response
+} else {
+  // Handle failed request
+}
+
+
+
+
 
